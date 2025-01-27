@@ -1,26 +1,26 @@
-🌟🚀A Ecommerce API built using Node.js, Express.js, and MongoDB!
+🌟🚀A Ecommerce API built using Node.js, Express.js, and MongoDB!<br>
 
-Project Description:
+Project Description:<br>
 
-"In this project, I developed a backend API for managing ecommerce. The API supports key functionalities such as:
+"In this project, I developed a backend API for managing ecommerce. The API supports key functionalities such as:<br>
 
-✅ Adding new products with details like title, category, price, quantity and description.
-✅ Updating existing product entries by their unique IDs.
-✅ Deleting products from the catalog.
-Searching for a product by title, category.
-Searching for a customer by name,city,state.
-Searching for a order by status.
+✅ Adding new products with details like title, category, price, quantity and description.<br>
+✅ Updating existing product entries by their unique IDs.<br>
+✅ Deleting products from the catalog.<br>
+Searching for a product by title, category.<br>
+Searching for a customer by name,city,state.<br>
+Searching for a order by status.<br>
 
-Technologies Used:
-"This project was built using the following technologies:
-⚙️ Node.js: For creating a robust backend server.
-📦 Express.js: To simplify routing and middleware setup.
-🗂️ MongoDB: A NoSQL database to manage and store movie data.
-🔧 Postman/Thunder Client: To test and debug API endpoints."
+Technologies Used:<br>
+"This project was built using the following technologies:<br>
+⚙️ Node.js: For creating a robust backend server.<br>
+📦 Express.js: To simplify routing and middleware setup.<br>
+🗂️ MongoDB: A NoSQL database to manage and store movie data.<br>
+🔧 Postman/Thunder Client: To test and debug API endpoints."<br>
 
-This project enhanced my skills in:
-📍Building RESTful APIs.
-📍Working with middleware and route handling in Express.js.
-📍Managing NoSQL databases using MongoDB.
-📍Debugging and testing APIs with tools like Postman/ Thunder Client.
+This project enhanced my skills in:<br>
+📍Building RESTful APIs.<br>
+📍Working with middleware and route handling in Express.js.<br>
+📍Managing NoSQL databases using MongoDB.<br>
+📍Debugging and testing APIs with tools like Postman/ Thunder Client.<br>
 📍Writing asynchronous code using async/await for better performance."
