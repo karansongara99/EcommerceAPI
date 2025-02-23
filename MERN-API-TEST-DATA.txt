@@ -1,0 +1,265 @@
+<===========================================User Data<===========================================>
+
+
+[
+  {
+    "UserId": 1,
+    "UserProfileImage": "https://example.com/user1.jpg",
+    "UserName": "John Doe",
+    "UserEmail": "john.doe@example.com",
+    "UserPassword": "hashedpassword123",
+    "UserContact": 9876543210,
+    "UserAddress": "123 Elm St, Springfield",
+    "UserCity": "Springfield",
+    "UserState": "Illinois",
+    "UserCountry": "USA",
+    "UserPincode": 62701
+  },
+  { 
+    "UserId": 2,
+    "UserProfileImage": "https://example.com/user2.jpg",
+    "UserName": "Jane Smith",
+    "UserEmail": "jane.smith@example.com",
+    "UserPassword": "hashedpassword456",
+    "UserContact": 1234567890,
+    "UserAddress": "456 Oak St, Springfield",
+    "UserCity": "Springfield",
+    "UserState": "Illinois",
+    "UserCountry": "USA",
+    "UserPincode": 62702
+  },
+  {
+    "UserId": 3,
+    "UserProfileImage": "https://example.com/user3.jpg",
+    "UserName": "Alice Johnson",
+    "UserEmail": "alice.johnson@example.com",
+    "UserPassword": "hashedpassword789",
+    "UserContact": 1122334455,
+    "UserAddress": "789 Maple St, Springfield",
+    "UserCity": "Springfield",
+    "UserState": "Illinois",
+    "UserCountry": "USA",
+    "UserPincode": 62703
+  },
+  {
+    "UserId": 4,
+    "UserProfileImage": "https://example.com/user4.jpg",
+    "UserName": "Bob Brown",
+    "UserEmail": "bob.brown@example.com",
+    "UserPassword": "hashedpassword000",
+    "UserContact": 5566778899,
+    "UserAddress": "101 Pine St, Springfield",
+    "UserCity": "Springfield",
+    "UserState": "Illinois",
+    "UserCountry": "USA",
+    "UserPincode": 62704
+  },
+  {
+    "UserId": 5,
+    "UserProfileImage": "https://example.com/user5.jpg",
+    "UserName": "Eve White",
+    "UserEmail": "eve.white@example.com",
+    "UserPassword": "hashedpassword111",
+    "UserContact": 9988776655,
+    "UserAddress": "202 Birch St, Springfield",
+    "UserCity": "Springfield",
+    "UserState": "Illinois",
+    "UserCountry": "USA",
+    "UserPincode": 62705
+  }
+]
+
+
+<===========================================Category Data===========================================>
+
+
+[
+  {
+    "CategoryID": 1,
+    "CategoryName": "Electronics"
+  },
+  {
+    "CategoryID": 2,
+    "CategoryName": "Clothing"
+  },
+  {
+    "CategoryID": 3,
+    "CategoryName": "Home & Kitchen"
+  },
+  {
+    "CategoryID": 4,
+    "CategoryName": "Books"
+  },
+  {
+    "CategoryID": 5,
+    "CategoryName": "Sports"
+  }
+]
+
+
+<===========================================Product Data===========================================>
+
+
+[
+  {
+    "ProductID": 1,
+    "ProductImage": "https://example.com/product1.jpg",
+    "ProductName": "Smartphone",
+    "ProductDescription": "Latest model smartphone with high-quality camera",
+    "ProductPrice": 500,
+    "ProductQuantity": 100,
+    "ProductDiscount": 10,
+    "CategoryID": 1
+  },
+  {
+    "ProductID": 2,
+    "ProductImage": "https://example.com/product2.jpg",
+    "ProductName": "Laptop",
+    "ProductDescription": "Powerful laptop with fast performance",
+    "ProductPrice": 1200,
+    "ProductQuantity": 50,
+    "ProductDiscount": 15,
+    "CategoryID": 1
+  },
+  {
+    "ProductID": 3,
+    "ProductImage": "https://example.com/product3.jpg",
+    "ProductName": "T-shirt",
+    "ProductDescription": "Comfortable cotton t-shirt for everyday wear",
+    "ProductPrice": 20,
+    "ProductQuantity": 200,
+    "ProductDiscount": 5,
+    "CategoryID": 3
+  },
+  {
+    "ProductID": 4,
+    "ProductImage": "https://example.com/product4.jpg",
+    "ProductName": "Microwave",
+    "ProductDescription": "Efficient microwave for quick cooking",
+    "ProductPrice": 150,
+    "ProductQuantity": 75,
+    "ProductDiscount": 12,
+    "CategoryID": 2
+  },
+  {
+    "ProductID": 5,
+    "ProductImage": "https://example.com/product5.jpg",
+    "ProductName": "Basketball",
+    "ProductDescription": "Durable basketball for indoor and outdoor play",
+    "ProductPrice": 30,
+    "ProductQuantity": 150,
+    "ProductDiscount": 10,
+    "CategoryID": 5
+  }
+]
+
+
+<===========================================Cart Data===========================================>
+
+
+{
+  "CartID": 1,
+  "ProductID": 1,
+  "ProductQuantity": 2,
+  "UserID": 1
+}
+
+
+<===========================================Remark Data===========================================>
+
+
+[
+  {
+    "RemarkId": 1,
+    "RemarkDescription": "Great product! The smartphone is amazing with excellent camera quality.",
+    "Rating": 5,
+    "UpdatedAt": "2025-02-08T15:00:00Z",
+    "UserId": 1,
+    "ProductID": 1
+  },
+  {
+    "RemarkId": 2,
+    "RemarkDescription": "Laptop is a bit heavy, but performance is excellent.",
+    "Rating": 4,
+    "UpdatedAt": "2025-02-08T15:00:00Z",
+    "UserId": 2,
+    "ProductID": 2
+  },
+  {
+    "RemarkId": 3,
+    "RemarkDescription": "T-shirt fabric is soft and comfortable, but the size runs a bit large.",
+    "Rating": 3,
+    "UpdatedAt": "2025-02-08T15:00:00Z",
+    "UserId": 3,
+    "ProductID": 3
+  },
+  {
+    "RemarkId": 4,
+    "RemarkDescription": "Good microwave, easy to use, heats food quickly.",
+    "Rating": 4,
+    "UpdatedAt": "2025-02-08T15:00:00Z",
+    "UserId": 4,
+    "ProductID": 4
+  },
+  {
+    "RemarkId": 5,
+    "RemarkDescription": "The basketball is sturdy and perfect for outdoor games.",
+    "Rating": 5,
+    "UpdatedAt": "2025-02-08T15:00:00Z",
+    "UserId": 5,
+    "ProductID": 5
+  }
+]
+
+
+<===========================================Wishlist Data===========================================>
+
+
+[
+  {
+    "WhislistId": 1,
+    "ProductID": 1,
+    "UserId": 1
+  },
+  {
+    "WhislistId": 2,
+    "ProductID":2,
+    "UserId": 2
+  },
+  {
+    "WhislistId": 3,
+    "ProductID": 3,
+    "UserId": 3
+  },
+  {
+    "WhislistId": 4,
+    "ProductID": 4,
+    "UserId": 4
+  },
+  {
+    "WhislistId": 5,
+    "ProductID": 5,
+    "UserId": 5
+  }
+]
+
+
+<===========================================Order Data===========================================>
+
+
+{
+  "OrderID": 101,
+  "UserID": 2,
+  "ProductItems": [
+    {
+      "ProductID": 1,
+      "ProductQuantity": 1
+    },
+    {
+      "ProductID": 2,
+      "ProductQuantity": 3
+    }
+  ],
+  "TotalAmount": 150,
+  "OrderDate": "2025-02-08T15:00:00Z"
+}
